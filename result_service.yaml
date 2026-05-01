@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: forresult-app
+  labels:
+    project: myproject
+spec:
+  selector:
+    name: result-app
+    project: myproject
+  type: NodePort  
+  ports:
+      - port: 80
+        targetPort: 80
+        nodePort: 30003
+        
