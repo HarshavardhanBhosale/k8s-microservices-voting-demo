@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: db
+  labels:
+    name: postgres-service
+    project: myproject
+spec:
+  selector:
+    name: postgres-demo-app
+    project: myproject
+  ports:
+      - port: 5432
+        targetPort: 5432
