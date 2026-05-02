@@ -4,7 +4,7 @@ metadata:
   name: db
   labels:
     name: postgres-service
-   app: demo-voting-app
+    app: demo-voting-app
 spec:
   selector:
     name: postgres-demo-app
