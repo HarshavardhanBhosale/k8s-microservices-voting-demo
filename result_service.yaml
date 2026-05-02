@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: forresult-app
   labels:
-    project: myproject
+    app: demo-voting-app
 spec:
   selector:
     name: result-app
-    project: myproject
+    app: demo-voting-app
   type: NodePort  
   ports:
       - port: 80

@@ -4,7 +4,7 @@ metadata:
   name: redis-demo-app
   labels:
    name: redis-demo-app
-   project: myproject
+   app: demo-voting-app
 spec:
   containers:
   - name: redis-demo

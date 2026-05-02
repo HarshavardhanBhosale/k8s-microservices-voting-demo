@@ -4,7 +4,7 @@ metadata:
   name: result-app
   labels:
    name: result-app
-   project: myproject
+   app: demo-voting-app
 spec:
   containers:
   - name: result

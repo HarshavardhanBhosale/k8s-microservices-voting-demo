@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: forfrontend-demo
   labels:
-    project: myproject
+    app: demo-voting-app
 spec:
   selector:
     name: frontend-demo-app
-    project: myproject
+  app: demo-voting-app
   type: NodePort  
   ports:
       - port: 80

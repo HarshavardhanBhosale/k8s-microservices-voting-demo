@@ -4,7 +4,7 @@ metadata:
   name: postgres-demo-app
   labels:
    name: postgres-demo-app
-   project: myproject
+   app: demo-voting-app
 spec:
   containers:
   - name: postgres-demo

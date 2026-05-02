@@ -4,11 +4,11 @@ metadata:
   name: db
   labels:
     name: postgres-service
-    project: myproject
+   app: demo-voting-app
 spec:
   selector:
     name: postgres-demo-app
-    project: myproject
+    app: demo-voting-app
   ports:
       - port: 5432
         targetPort: 5432
